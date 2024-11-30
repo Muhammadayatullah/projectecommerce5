@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      {% load static %}
+      <meta charset="utf-8">
+      <title>Glowing Inputs Register Form UI</title>
+      <link rel="stylesheet" href="{% static 'accounts/login.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="login-form">
+         <div class="text">
+            REGISTER
+         </div>
+         <form>
+            <div class="field">
+               <div class="fas fa-user"></div>
+               <input type="text" placeholder="Full Name">
+            </div>
+            <div class="field">
+               <div class="fas fa-envelope"></div>
+               <input type="text" placeholder="Email or Phone">
+            </div>
+            <div class="field">
+               <div class="fas fa-lock"></div>
+               <input type="password" placeholder="Password">
+            </div>
+            <div class="field">
+               <div class="fas fa-lock"></div>
+               <input type="password" placeholder="Confirm Password">
+            </div>
+            <button>REGISTER</button>
+            <div class="link">
+               Already a member?
+               <a href="#">Login Now</a>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
